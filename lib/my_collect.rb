@@ -5,7 +5,7 @@ def my_collect(c)
     result = []
     i = 0
   
-    while i < array.length
+    while i < c.length
       value =  yield c[i]
       result << value 
       i = i + 1
